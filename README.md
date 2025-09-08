@@ -34,6 +34,35 @@ After training multiple models, Random Forest achieved the best performance:
 ## 📊 Results Visualization
 
 
+## 📊 Results Visualization
+
+### RMSE Comparison
+Lower RMSE = better prediction accuracy.  
+Random Forest had the best RMSE (~137k), followed by XGBoost.
+
+![RMSE Comparison](images/model_rmse_comparison.png)
+
+---
+
 ### R² Comparison
 Higher R² = more variance explained.  
 Random Forest again performed best (R² ≈ 0.97).
+
+![R² Comparison](images/model_r2_comparison.png)
+
+---
+
+### Feature Importance (Random Forest)
+Shows which features most strongly influence price predictions.  
+**Year** and **Max Power** are most important.
+
+![Feature Importance - Random Forest](images/feature_importance_random_forest.png)
+
+---
+
+### SHAP Values (XGBoost)
+Explains how each feature pushes predictions higher or lower.  
+Blue = lower price, Red = higher price.
+
+![SHAP Summary - XGBoost](images/shap_summary_xgboost.png)
+
