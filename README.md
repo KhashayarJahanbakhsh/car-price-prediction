@@ -68,4 +68,19 @@ Feature_Importance Random Forest:
 https://github.com/KhashayarJahanbakhsh/car-price-prediction/blob/main/Images/feature_importance_random_forest.png
 
 Feature_Importance XGBoost:
+https://github.com/KhashayarJahanbakhsh/car-price-prediction/blob/main/Images/feature_importance_xgboost.png
+
+
+### SHAP Summary Plot
+The SHAP (SHapley Additive exPlanations) summary plot provides detailed insights into feature importance and impact:
+
+Each point represents a car in the dataset
+The x-axis shows the SHAP value (impact on model output)
+The y-axis lists features by importance
+Color represents the feature value (red = high, blue = low)
+This plot helps understand:
+
+The direction of each feature's effect on price
+The magnitude of each feature's impact
+How different values of each feature affect the prediction
 
