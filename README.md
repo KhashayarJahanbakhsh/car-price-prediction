@@ -8,6 +8,9 @@ I compared multiple regression models and identified the best-performing one.
 
 ## 📂 Project Structure
 - `car_price_comparison.py` → main script for preprocessing, training, and evaluation  
+## Overview
+This project implements machine learning models to predict car prices based on various features like year, mileage, engine specifications, and more.
+The solution includes multiple regression models with performance comparison and feature importance analysis.
 
 
 ---
@@ -37,4 +40,18 @@ After training multiple models, Random Forest achieved the best performance:
 Higher R² = more variance explained.  
 Random Forest again performed best (R² ≈ **0.97**).
 In this figure you can see rhe result between Random Foresr and XGBoost very close to each other.
+ This bar chart shows the R² score (coefficient of determination) for each model. R² values range from 0 to 1, where:
+
+1 indicates perfect prediction
+0 means the model is no better than a horizontal line
+Negative values indicate worse performance than a horizontal line
+Models are sorted from highest to lowest R² score.
+
 https://github.com/KhashayarJahanbakhsh/car-price-prediction/blob/main/Images/model_r2_comparison.png
+
+### Model RMSE Comparison
+
+
+
+
+
