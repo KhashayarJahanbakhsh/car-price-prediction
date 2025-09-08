@@ -84,3 +84,4 @@ The direction of each feature's effect on price
 The magnitude of each feature's impact
 How different values of each feature affect the prediction
 
+https://github.com/KhashayarJahanbakhsh/car-price-prediction/blob/main/shap_summary_plot.png
