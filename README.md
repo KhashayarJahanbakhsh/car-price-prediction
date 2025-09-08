@@ -33,4 +33,8 @@ After training multiple models, Random Forest achieved the best performance:
 
 
 
+### R² Comparison
+Higher R² = more variance explained.  
+Random Forest again performed best (R² ≈ 0.97).
 
+![R² Comparison](images/model_r2_comparison.png)
