@@ -56,7 +56,8 @@ The models are sorted from best (lowest RMSE) to worst. This visualization helps
 https://github.com/KhashayarJahanbakhsh/car-price-prediction/blob/main/Images/model_rmse_comparison.png
 
 
-###SHAP summary
+###Feature_Importance
+
 These horizontal bar charts show which features most influence the model's predictions. For tree-based models (Random Forest and XGBoost), importance is typically calculated based on:
 
 How much the feature decreases the impurity (Gini importance)
@@ -64,6 +65,7 @@ How often the feature is used to split the data
 Features are sorted by importance, with the most important features at the top
 
 Feature_Importance Random Forest:
+https://github.com/KhashayarJahanbakhsh/car-price-prediction/blob/main/Images/feature_importance_random_forest.png
 
-
+Feature_Importance XGBoost:
 
