@@ -33,4 +33,4 @@ After training multiple models, Random Forest achieved the best performance:
 
 
 
-https://github.com/KhashayarJahanbakhsh/car-price-prediction/tree/main/Images
+https://github.com/KhashayarJahanbakhsh/car-price-prediction/blob/main/Images/model_r2_comparison.png
