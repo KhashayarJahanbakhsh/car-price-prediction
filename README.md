@@ -50,7 +50,9 @@ Models are sorted from highest to lowest R² score.
 https://github.com/KhashayarJahanbakhsh/car-price-prediction/blob/main/Images/model_r2_comparison.png
 
 ### Model RMSE Comparison
-
+ This bar chart compares the Root Mean Squared Error (RMSE) across different models. Lower RMSE values indicate better performance. 
+ The models are sorted from best (lowest RMSE) to worst. This visualization helps quickly identify which model performs best at minimizing prediction errors.
+ 
 
 
 
