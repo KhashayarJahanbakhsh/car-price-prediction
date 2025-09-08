@@ -36,4 +36,5 @@ After training multiple models, Random Forest achieved the best performance:
 ### R² Comparison
 Higher R² = more variance explained.  
 Random Forest again performed best (R² ≈ **0.97**).
-
+In this figure you can see rhe result between Random Foresr and XGBoost very close to each other.
+https://github.com/KhashayarJahanbakhsh/car-price-prediction/blob/main/Images/model_r2_comparison.png
