@@ -8,7 +8,6 @@ I compared multiple regression models and identified the best-performing one.
 
 ## 📂 Project Structure
 - `car_price_comparison.py` → main script for preprocessing, training, and evaluation  
-- `requirements.txt` → list of dependencies  
 
 
 ---
@@ -31,6 +30,7 @@ After training multiple models, Random Forest achieved the best performance:
 | Lasso         | 453,471   | 0.6863  | 0.354       |
 
 ✅ **Conclusion**: Random Forest is the most accurate model for predicting car prices.
+
 
 
 
