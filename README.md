@@ -31,6 +31,9 @@ After training multiple models, Random Forest achieved the best performance:
 
 ✅ **Conclusion**: Random Forest is the most accurate model for predicting car prices.
 
+## 📊 Results Visualization
 
+### R² Comparison
+Higher R² = more variance explained.  
+Random Forest again performed best (R² ≈ **0.97**).
 
-https://github.com/KhashayarJahanbakhsh/car-price-prediction/blob/main/Images/model_r2_comparison.png
